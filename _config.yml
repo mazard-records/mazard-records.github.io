@@ -4,6 +4,9 @@ description: ""
 url: "https://www.mazard-records.fr"
 github_username: "mazard-records"
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 collections:
   links:
     output: false
