@@ -2,6 +2,9 @@
 layout: base
 ---
 <div class="linktree">
+<img
+    class="avatar"
+    src="{{ '/assets/images/avatar.jpeg' | prepend: site.url }}">
 {% for link in site.links %}
 {% if link.site == "soundcloud" %}
 {% include soundcloud.html link=link %}
