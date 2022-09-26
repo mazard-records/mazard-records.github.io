@@ -4,6 +4,8 @@
 @import "normalize";
 
 html {
+    background-color: $primary-background;
+    color: $primary-text;
     margin: 0;
     padding: 0;
 }

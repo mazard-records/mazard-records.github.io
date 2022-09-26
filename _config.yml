@@ -1,0 +1,9 @@
+title: "Mazard Records"
+email: "contact@mazard-records.fr"
+description: ""
+url: "https://www.mazard-records.fr"
+github_username: "mazard-records"
+markdown: kramdown
+collections:
+  links:
+    output: false
