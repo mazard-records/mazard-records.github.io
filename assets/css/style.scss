@@ -5,6 +5,7 @@
 @charset "utf-8";
 @import "colors";
 @import "containers";
+@import "images";
 
 html {
     min-height: 100vh;
@@ -23,5 +24,9 @@ body {
 }
 
 .linktree {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 10%;
 }
