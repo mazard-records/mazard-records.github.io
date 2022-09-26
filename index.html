@@ -1,4 +1,14 @@
 ---
-layout: tree
-index: true
+layout: base
 ---
+<div class="linktree">
+    {% for link in site.links %}
+        {% if link.site == "soundcloud" %}
+        {% include soundcloud.html link=link %}
+        {% else if link.site == "youtube" %}
+        {% include youtube.html link=link %}
+        {% else %}
+        {% include website.html link=link %}
+        {% endif %}
+    {% endfor %}
+</div>

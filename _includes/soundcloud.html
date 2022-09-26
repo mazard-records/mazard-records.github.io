@@ -5,5 +5,5 @@
     {% assign url = url | append: release %}
 {% endif %}
 <a href="{{ url }}" class="container-soundcloud">
-    {{ content }}
+    {{ include.link.label }}
 </a>
