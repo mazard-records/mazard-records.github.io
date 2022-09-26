@@ -1,11 +1,9 @@
 @charset "utf-8";
 @import "colors";
 @import "containers";
-@import "normalize";
+// @import "normalize";
 
 html {
-    background-color: $primary-background;
-    color: $primary-text;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -13,8 +11,14 @@ html {
 }
 
 body {
+    background-color: $primary-background;
+    color: $primary-text;
     min-height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
+}
+
+.linktree {
+    margin: 10%;
 }

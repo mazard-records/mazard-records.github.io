@@ -3,10 +3,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+}
+
+.container,
+.container:active,
+.container:hover,
+.container:link,
+.container:visited {
+    color: $primary-text;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
 }
 
 .container-soundcloud {
     background-color: $primary-soundcloud;
+    color: $primary-text;
 }
 
 .container-youtube {
