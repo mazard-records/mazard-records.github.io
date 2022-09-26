@@ -1,0 +1,14 @@
+#root-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-soundcloud {
+    background-color: $primary-soundcloud;
+}
+
+.container-youtube {
+    background-color: $primary-youtube;
+}

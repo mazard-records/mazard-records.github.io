@@ -1,0 +1,31 @@
+title: "Mazard Records"
+email: "contact@mazard-records.fr"
+description: ""
+url: "https://www.mazard-records.fr"
+github_username: "mazard-records"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM 
+  syntax_highlighter: rouge
+
+paginate: 5
+paginate_path: /:num/
+paginate_nr: 3
+latest_nr: 10
+
+plugins:
+  - jekyll-paginate
+
+collections:
+  projects:
+    output: True
+  members:
+    output: True
+
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      layout: "member"

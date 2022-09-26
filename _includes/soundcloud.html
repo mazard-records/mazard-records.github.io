@@ -1,0 +1,9 @@
+{% assign profile = include.link.profile %}
+{% assign release = include.link.release %}
+{% assign url = "https://soundcloud.com/" | append: profile | append :"/" %}
+{% if release and release != "" %}
+    {% assign url = url | append: release %}
+{% endif %}
+<a href="{{ url }}" class="container-soundcloud">
+    {{ content }}
+</a>
