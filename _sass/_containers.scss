@@ -13,6 +13,7 @@
 .container:link,
 .container:visited {
     align-items: center;
+    border: 2px white solid;
     box-sizing: border-box;
     color: $primary-text;
     display: flex;
