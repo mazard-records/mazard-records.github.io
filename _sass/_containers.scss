@@ -13,30 +13,19 @@
 .container:link,
 .container:visited {
     align-items: center;
-    box-shadow: 5px 5px 0px 0px $secondary-soundcloud;
     box-sizing: border-box;
     color: $primary-text;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-left: -2.5px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     width: 100%;
 }
 
-.container-soundcloud {
-    background-color: $primary-soundcloud;
-
-    span {
-        color: $primary-text;
-        font-family: Interstate, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
-        font-size: 18px;
-        font-weight: normal;
-    }
-}
-
-.container-soundcloud > svg {
+.container > svg {
 
     height: 32px;
     width: 32px;
@@ -46,6 +35,26 @@
     }
 }
 
+.container-soundcloud {
+    background-color: $primary-soundcloud;
+    box-shadow: 5px 5px 0px 0px $secondary-soundcloud;
+
+    span {
+        color: $primary-text;
+        font-family: Interstate, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
+
 .container-youtube {
     background-color: $primary-youtube;
+    box-shadow: 5px 5px 0px 0px $secondary-youtube;
+
+    span {
+        color: $primary-text;
+        font-family: Interstate, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+    }
 }

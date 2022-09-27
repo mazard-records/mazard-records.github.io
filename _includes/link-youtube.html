@@ -1,3 +1,8 @@
-<div class="container-youtube">
-
-</div>
+{% assign channel = include.link.channel %}
+{% assign url = "https://www.youtube.com/channel/" | append: channel | append :"/" %}
+<a href="{{ url }}" class="container container-youtube">
+    {% include icon-youtube.html %}
+    <span>
+        {{ include.link.label }}
+    </span>
+</a>
