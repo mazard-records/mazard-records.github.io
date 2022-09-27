@@ -20,7 +20,7 @@
     justify-content: space-evenly;
     margin-bottom: 32px;
     margin-left: -2.5px;
-    padding: 10px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -29,6 +29,7 @@
 .container svg {
 
     height: 32px;
+    margin-right: 15px;
     width: 32px;
 
     path {
@@ -39,11 +40,6 @@
 .container-soundcloud {
     background-color: $primary-soundcloud;
     box-shadow: 5px 5px 0px 0px $secondary-soundcloud;
-
-    &:hover {
-        background-color: $secondary-soundcloud;
-        box-shadow: 5px 5px 0px 0px $primary-soundcloud;
-    }
 
     span {
         color: $primary-text;
@@ -57,15 +53,11 @@
     background-color: $primary-youtube;
     box-shadow: 5px 5px 0px 0px $secondary-youtube;
 
-    &:hover {
-        background-color: $secondary-youtube;
-        box-shadow: 5px 5px 0px 0px $primary-youtube;
-    }
-
     span {
         color: $primary-text;
-        font-family: "Roboto";
+        font-family: Roboto, Arial, sans-serif;
         font-size: 18px;
-        font-weight: normal;
+        font-weight: 500;
+        padding-top: 2px;
     }
 }
