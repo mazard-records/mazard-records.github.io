@@ -4,4 +4,4 @@ $primary-soundcloud: #f50;
 $primary-youtube: #f00;
 
 $secondary-background: lighten($primary-background, 10%);
-$secondary-soundcloud: $primary-soundcloud;
+$secondary-soundcloud: darken($primary-soundcloud, 10%);
