@@ -40,6 +40,11 @@
     background-color: $primary-soundcloud;
     box-shadow: 5px 5px 0px 0px $secondary-soundcloud;
 
+    &:hover {
+        background-color: $secondary-soundcloud;
+        box-shadow: 5px 5px 0px 0px $primary-soundcloud;
+    }
+
     span {
         color: $primary-text;
         font-family: Interstate, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
@@ -51,6 +56,11 @@
 .container-youtube {
     background-color: $primary-youtube;
     box-shadow: 5px 5px 0px 0px $secondary-youtube;
+
+    &:hover {
+        background-color: $secondary-youtube;
+        box-shadow: 5px 5px 0px 0px $primary-youtube;
+    }
 
     span {
         color: $primary-text;
