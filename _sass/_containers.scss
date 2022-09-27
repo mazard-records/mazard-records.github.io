@@ -25,8 +25,14 @@
 
 .container-soundcloud {
     background-color: $primary-soundcloud;
-    color: $primary-text;
-    font-family: 'Interstate', sans-serif;
+
+    span {
+        color: $primary-text;
+        font-family: Interstate, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        padding-top: 3px;
+    }
 }
 
 .container-soundcloud > svg {
