@@ -13,6 +13,8 @@
 .container:visited {
     color: $primary-text;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
     text-decoration: none;
     width: 100%;
 }
@@ -20,6 +22,10 @@
 .container-soundcloud {
     background-color: $primary-soundcloud;
     color: $primary-text;
+}
+
+.container-soundcloud > svg path {
+    fill: $primary-text;
 }
 
 .container-youtube {

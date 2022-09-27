@@ -2,16 +2,20 @@
 layout: base
 ---
 <div class="linktree">
-<img
-    class="avatar"
-    src="{{ '/assets/images/avatar.jpeg' | prepend: site.url }}">
-{% for link in site.links %}
-{% if link.site == "soundcloud" %}
-{% include soundcloud.html link=link %}
-{% else if link.site == "youtube" %}
-{% include youtube.html link=link %}
-{% else %}
-{% include website.html link=link %}
-{% endif %}
-{% endfor %}
+    <header>
+        <img
+            class="avatar"
+            src="{{ '/assets/images/avatar.jpeg' | prepend: site.url }}">    
+    </header>
+    <nav>
+        {% for link in site.links %}
+            {% if link.site == "soundcloud" %}
+            {% include link-soundcloud.html link=link %}
+            {% else if link.site == "youtube" %}
+            {% include link-youtube.html link=link %}
+            {% else %}
+            {% include link-website.html link=link %}
+            {% endif %}
+        {% endfor %}
+    </nav>
 </div>
